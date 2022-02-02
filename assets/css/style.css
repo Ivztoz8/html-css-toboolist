@@ -22,7 +22,7 @@
 
 #logocontainer{
   display: inline-block;
-  background-image: url(/assets/img/Logo.png);
+  background-image: url('./assets/img/Logo.png');
   width: 69px;
   height: 69px;
   background-size: 50px;
@@ -198,27 +198,28 @@ ul {
   }
 
 /* Utility check */
-.check:before{
-  content: "\2713";
+.check{
+  display: inline-block;
   color: lime;
-  width: 10px;
-  height: 10px;
-  text-align: center;
   border: 1px solid lime;
-  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
   vertical-align: middle;
-  padding: 0.2%;
 }
 
 /* Utility cross */
-.cross:before{
-  content: "\2A2F";
+.crossx{
+  display: inline-block;
   color: rgb(255, 66, 66);
-  width: 10px;
-  height: 10px;
-  text-align: center;
   border: 1px solid rgb(255, 66, 66);
-  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
   vertical-align: middle;
-  padding: 0.2%;
 }
+
