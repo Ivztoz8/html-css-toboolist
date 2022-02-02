@@ -22,7 +22,7 @@
 
 #logocontainer{
   display: inline-block;
-  background-image: url('/assets/img/Logo.png');
+  background-image: url('./../img/Logo.png');
   width: 69px;
   height: 69px;
   background-size: 50px;
